@@ -1,5 +1,6 @@
 # Google Play Store Analytics
 <img src="https://raw.githubusercontent.com/fafilia/capstone-UIFlask/master/full_capstone.png">
+
 ## Introduction
 Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan adalah Anda dapat membangun sebuah aplikasi web sederhana (dashboard) menggunakan framework Flask. Capstone ini akan fokus pada tampilan user interface Flask. 
 
@@ -25,11 +26,6 @@ Data yang digunakan pada capstone project ini adalah data hasil scraping dari Go
 - Pandas
 - Numpy
 
-Semua modul tersebut dapat Anda install dengan cara :
-```
-pip install -r requirements.txt
-```
-
 ## Rubrics
 Pada capstone ini, Anda diharapkan untuk dapat membangun sebuah aplikasi Flask yang fokus pada tampilan user interface. Langkah pertama yang harus Anda lakukan adalah silahkan download atau clone repositori ini. File pada repositori ini merupakan sebuah skeleton untuk membuat sebuah dashboard aplikasi Flask. Pada bagian `app.py` dan `templates/index.html` ada beberapa bagian yang rumpang dan harus Anda lengkapi. Beberapa bagian yang harus diperhatikan adalah sebagai berikut:
 
@@ -45,7 +41,7 @@ a. Created virtual environment called "capstone-flask"
 
 Hal pertama yang harus dilakukan adalah melakukan pengaturan environment conda. Untuk menyiapkan conda environment dan kernel, silahkan gunakan command berikut:
 ```
-conda create -n <ENV_NAME> python=3.8
+conda create -n <ENV_NAME> python=3.10
 conda activate <ENV_NAME>
 
 conda install ipykernel
@@ -53,6 +49,7 @@ python -m ipykernel install --user --name <ENV_NAME>
 ```
 
 b. Install packages: pandas, flask, matplotlib, dan numpy
+
 Seluruh dependecies telah di-export ke dalam file requirements.txt. Oleh karena itu untuk melakukan install packages, Anda dapat menggunakan perintah berikut:
 ```
 pip install -r requirements.txt --user
